@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "week1-ungraded-lab"
+version = "0.1.0"
+description = ""
+authors = ["Baptiste Pasquier <pasquierbaptiste@hotmail.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+cvlib = "0.2.6"
+opencv-python-headless = "4.5.3.56"
+pillow = "8.4.0"
+tensorflow = "2.7.0"
+uvicorn = "0.16.0"
+python-multipart = "0.0.5"
+fastapi = "0.70.1"
+nest-asyncio = "1.5.4"
+jupyterlab = "3.2.5"
+protobuf = "3.20"
+tensorflow-io-gcs-filesystem = "0.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
